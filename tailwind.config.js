@@ -7,10 +7,27 @@ module.exports = {
   ],
   theme: {
     extend: {
+      container: {
+        center: true,
+        padding: {
+          DEFAULT: '1rem',
+          sm: '2rem',
+          lg: '3rem',
+          xl: '4rem',
+        },
+      },
+      colors: {
+        primary: "#11c5dd",
+        secondary: "#01173c",
+        body: "#7d8f9e"
+      },
+      fontFamily: {
+        Fjalla: ['Fjalla One', 'sans-serif'],
+      
+        
+      },
       backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        
       },
     },
   },

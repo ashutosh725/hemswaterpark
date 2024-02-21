@@ -8,7 +8,7 @@ const Terms = () => {
         <div className='flex flex-col md:flex-row gap-5  w-full'>
             <div className=' md:w-[35%] w-full flex flex-col justify-start items-start gap-5 '>
              <span className='text-[16px] font-Fjalla font-medium tracking-wider text-primary'>TERMS</span>
-             <h2 className='text-[32px] text-secondary font-Fjalla font-bold'>WE'VE HAVE SOME SIMPLE RULES AND REGULATIONS</h2>
+             <h2 className='text-[32px] text-secondary font-Fjalla font-bold'>{`Infique Ai Services Pvt Ltd`}</h2>
              <p className='text-[16px] text-body'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco labori</p>
              <div className='flex flex-col justify-center items-start gap-4'>
                <div className='flex justify-start items-center w-full gap-3 text-[16px] text-body'><MdDone className='text-primary text-[20px] font-bold'/><p>Kids under 4 must wear protective swim pants</p></div>

@@ -1,10 +1,9 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import { IoLocationOutline , IoCallOutline} from "react-icons/io5";
+
 import { IoTime } from "react-icons/io5";
 import Logo from '../../public/logo.png'
-import { FaFacebookF, FaTwitter , FaLinkedinIn, FaInstagram, FaYoutube   } from "react-icons/fa";
-import { AiOutlineMail } from "react-icons/ai";
+
 import React from 'react'
 
 const Footer = () => {
@@ -21,25 +20,25 @@ const Footer = () => {
 
         </div>
         <div className='flex flex-1 flex-col justify-center items-start gap-3'>
-            <h4 className='text-[24px] font-medium text-white'>Quick Links</h4>
+            <h4 className='text-[22px] font-medium  text-white font-Fjalla'>Quick Links</h4>
             <ul className='flex flex-col justify-center items-start gap-2'>
-                <Link href={'/'} className='text-[14px] text-white hover:text-primary duration-500 '>About Us</Link>
-                <Link href={'/'} className='text-[14px] text-white hover:text-primary duration-500 '>Services</Link>
-                <Link href={'/'} className='text-[14px] text-white hover:text-primary duration-500 '>Booking</Link>
-                <Link href={'/'} className='text-[14px] text-white hover:text-primary duration-500 '>Packages</Link>
-                <Link href={'/'} className='text-[14px] text-white hover:text-primary duration-500 '>Contact</Link>
+                <Link href={'/about'} className='text-[16px] text-white hover:text-primary duration-500 font-heebo tracking-wide font-medium'>About Us</Link>
+                <Link href={'/services'} className='text-[16px] text-white hover:text-primary duration-500 font-heebo tracking-wide font-medium'>Services</Link>
+                <Link href={'/booking'} className='text-[16px] text-white hover:text-primary duration-500 font-heebo tracking-wide font-medium'>Booking</Link>
+                <Link href={'/blog'} className='text-[16px] text-white hover:text-primary duration-500 font-heebo tracking-wide font-medium'>Packages</Link>
+                <Link href={'/contact'} className='text-[16px] text-white hover:text-primary duration-500 font-heebo tracking-wide font-medium'>Contact</Link>
 
 
             </ul>
         </div>
         <div className='flex flex-1 flex-col justify-center items-start gap-3'>
-            <h4 className='text-[24px] font-medium text-white'>Useful Links</h4>
+            <h4 className='text-[22px] font-medium  text-white font-Fjalla'>Useful Links</h4>
             <ul className='flex flex-col justify-center items-start gap-2'>
-                <Link href={`/`} className='text-[14px] text-white hover:text-primary duration-500'>Privacy Policy</Link>
-                <Link href={`/`} className='text-[14px] text-white hover:text-primary duration-500'>Terms and Conditions</Link>
-                <Link href={`/`} className='text-[14px] text-white hover:text-primary duration-500'>Disclaimer</Link>
-                <Link href={`/`} className='text-[14px] text-white hover:text-primary duration-500'>Support</Link>
-                <Link href={`/`} className='text-[14px] text-white hover:text-primary duration-500'>FAQ</Link>
+                <Link href={`/`} className='text-[16px] text-white hover:text-primary duration-500 font-heebo tracking-wide font-medium'>Privacy Policy</Link>
+                <Link href={`/`} className='text-[16px] text-white hover:text-primary duration-500 font-heebo tracking-wide font-medium'>Terms and Conditions</Link>
+                <Link href={`/`} className='text-[16px] text-white hover:text-primary duration-500 font-heebo tracking-wide font-medium'>Disclaimer</Link>
+                <Link href={`/`} className='text-[16px] text-white hover:text-primary duration-500 font-heebo tracking-wide font-medium'>Support</Link>
+                <Link href={`/`} className='text-[16px] text-white hover:text-primary duration-500 font-heebo tracking-wide font-medium'>FAQ</Link>
 
 
             </ul>

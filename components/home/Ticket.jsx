@@ -3,7 +3,7 @@ import { MdDone } from "react-icons/md";
 
 const Ticket = () => {
   return (
-    <div className='bg-[#F2FDFF] py-20'>
+    <div className='bg-[#F2FDFF] py-28'>
         <div className='container mx-auto'>
         <div className='flex flex-col md:flex-row gap-5  w-full'>
             <div className=' md:w-[40%] w-full flex flex-col justify-start items-start gap-5 '>

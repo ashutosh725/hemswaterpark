@@ -23,6 +23,8 @@ module.exports = {
       },
       fontFamily: {
         Fjalla: ['Fjalla One', 'sans-serif'],
+        heebo:  ['Heebo', 'sans-serif'],
+      
       
         
       },

@@ -2,7 +2,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 
 import { IoTime } from "react-icons/io5";
-import Logo from '../../public/logo.png'
+import Logo from '../../public/HemsLogo.png'
 
 import React from 'react'
 
@@ -10,10 +10,10 @@ const Footer = () => {
   return (
     <div className='bg-[#01173C]'>
    <div className='container mx-auto'>
-    <div className='flex flex-wrap  lg:flex-row justify-between items-start gap-4 pt-14 pb-8 '>
+    <div className='grid lg:grid-cols-4 grid-cols-2 justify-start items-start gap-4 pt-14 pb-8 '>
         <div className='flex flex-1 flex-col justify-center items-start gap-3'>
             <div>
-                <Image src={Logo}  alt='' className='object-contain'/>
+                <Image src={Logo}  alt='' className=' h-24 w-40 object-contain'/>
             </div>
             <h1 className="text-[14px] text-white font-medium tracking-wider">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</h1>
            

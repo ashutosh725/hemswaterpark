@@ -17,13 +17,13 @@ const Services = () => {
     <div className='flex flex-col lg:flex-row gap-16 w-full'>
       <div className='lg:w-1/2 w-full '>
         
-       <div className='grid grid-cols-2 gap-6'>
+       <div className='grid grid-cols-1 md:grid-cols-2 gap-6'>
        <div className='bg-[#E1F6F9] flex flex-col justify-center items-center gap-5 p-6'>
             <div>
                 <Image src={Services1} className='h-[60px] w-[60px] object-cover'/>
             </div>
          <h3 className='text-[16px] font-Fjalla font-medium tracking-wide text-secondary'>Private Gazebo</h3>
-         <p className='text-[16px] text-body'>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+         <p className='text-[16px] text-body '>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
         </div>
         <div className='bg-[#E1F6F9] flex flex-col justify-center items-center gap-5 p-6'>
             <div>

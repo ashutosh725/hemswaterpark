@@ -23,13 +23,13 @@ const HeroSection = () => {
   };
  
   return (
-    <div style={{ height: 'calc(100vh + 80px)' }} className={`bg-secondary`}>
-      <div className='bg-[rgba(177,101,82,0.03)] h-full w-full'>
+    <div  className={`bg-secondary h-[calc(100vh + 80px)]  lg:py-16 py-20`}>
+      <div className='bg-[hsla(12,38%,51%,0)] h-full w-full'>
       <div className='container h-full mx-auto'>
-        <div className='flex justify-center h-full items-center  gap-10'>
-          <div className='w-1/2 flex flex-col justify-start items-start gap-5 text-white'>
+        <div className='flex flex-col lg:flex-row justify-center h-full items-center  gap-10'>
+          <div className='lg:w-1/2 w-full flex flex-col justify-start items-start gap-5 text-white'>
             <span className='text-[16px] font-bold font-Fjalla tracking-wider text-primary'>WELCOME TO WATERBOOM</span>
-            <h1 className='text-[60px] font-Fjalla font-bold tracking-wide leading-tight'>THE GREATEST WATER AND AMUSEMENT PARK IN THE WORLD</h1>
+            <h1 className='lg:text-[60px] text-[36px]  font-Fjalla font-bold tracking-wide leading-tight'>THE GREATEST WATER AND AMUSEMENT PARK IN THE WORLD</h1>
             <p className='text-[16px] tracking-wide leading-relaxed font-heebo'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris</p>
             <div className='flex justify-start items-center gap-5'>
               <span className='p-5 animate-ping bg-primary rounded-full flex justify-center items-center cursor-pointer'><FaPlay className=''/></span>
@@ -37,7 +37,7 @@ const HeroSection = () => {
             </div>
           </div>
 
-          <div className='w-1/2'>
+          <div className=' hidden lg:flex lg:w-1/2 '>
           <BookForm/>
           </div>
         </div>

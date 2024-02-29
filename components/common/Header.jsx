@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import Logo from '../../public/logo.png'
+import Logo from '../../public/HemsLogo.png'
 import Link from 'next/link'
 import { FaFacebookF ,FaYoutube, FaTwitter, FaInstagram } from "react-icons/fa";
 
@@ -10,7 +10,7 @@ const Header = () => {
    <div className='container mx-auto'>
     <div className='flex justify-between items-center '>
         <div>
-        <Image  src={Logo} className='h-20 w-32 object-contain '/>
+        <Image  src={Logo} className='h-[80px] w-[169px] object-contain '/>
         </div>
         <div className='hidden lg:flex justify-center items-center gap-5'>
         <Link href={'/'} className='text-[16px] text-secondary font-Fjalla  uppercase tracking-wider hover:text-primary duration-300'>Home</Link>

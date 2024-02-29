@@ -9,7 +9,7 @@ import Link from 'next/link'
 
 const Blog = () => {
   return (
-    <div className='pt-32 pb-20'>
+    <div className='lg:pt-32 pt-20 pb-20'>
       <div className='container mx-auto'>
       <div className='flex  flex-col justify-center items-center gap-4 pb-10 '>
 <span className='text-[16px] font-Fjalla font-medium tracking-wide text-primary ' >OUR BLOG</span>
@@ -17,7 +17,7 @@ const Blog = () => {
 <p className='text-center text-[16px]  text-body font-normal tracking-wide'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
     </div>
     <div className='grid grid-cols-1 lg:grid-cols-2 gap-5'>
-      <div className='flex gap-5'>
+      <div className='flex flex-col md:flex-row gap-5'>
         <div>
           <Image src={Blog1} className='w-[700px]   object-cover'/>
         </div>
@@ -28,7 +28,7 @@ const Blog = () => {
           <Link href={'/'} className='text-primary font-bold font-Fjalla text-[14px] tracking-wide'>READ MORE</Link>
         </div>
       </div>
-      <div className='flex gap-5'>
+      <div className='flex  flex-col md:flex-row  gap-5'>
         <div>
           <Image src={Blog2} className='w-[700px]  object-cover'/>
         </div>
@@ -39,7 +39,7 @@ const Blog = () => {
           <Link href={'/'} className='text-primary font-bold font-Fjalla text-[14px] tracking-wide'>READ MORE</Link>
         </div>
       </div>
-      <div className='flex gap-5'>
+      <div className='flex flex-col md:flex-row  gap-5'>
         <div>
           <Image src={Blog3} className='w-[700px]   object-cover'/>
         </div>
@@ -50,7 +50,7 @@ const Blog = () => {
           <Link href={'/'} className='text-primary font-bold font-Fjalla text-[14px] tracking-wide'>READ MORE</Link>
         </div>
       </div>
-      <div className='flex gap-5'>
+      <div className='flex flex-col md:flex-row  gap-5'>
         <div>
           <Image src={Blog4} className='w-[700px]    object-cover'/>
         </div>

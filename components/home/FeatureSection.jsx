@@ -6,7 +6,7 @@ import Link from 'next/link'
 const FeatureSection = () => {
   return (
     <div>
-        <div className='container mx-auto pt-40 py-20'>
+        <div className='container mx-auto  py-20'>
 <div className='grid grid-cols-1 md:grid-cols-2 gap-10 lg:grid-cols-3 '>
     <div className=' h-[400px] bg-cover bg-center flex flex-col justify-end items-start p-6 gap-5'style={{ backgroundImage: `url(${Banner2.src})` }}>
     <h3 className='text-[24px] font-Fjalla  tracking-wide text-white'>Best Pools</h3>

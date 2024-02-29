@@ -18,9 +18,9 @@ const Ticket = () => {
              </div>
              <button className='bg-primary text-white px-6 py-3 text-[16px] font-bold tracking-wide uppercase'>All Packages</button>
             </div>
-            <div className=' md:w-[60%] w-full flex '>
-                <div className='w-1/2 bg-secondary flex flex-col justify-center gap-6  items-center'>
-                    <h3 className='text-[24px] font-Fjalla font-[400] text-white'>Family Packages</h3>
+            <div className=' md:w-[60%] w-full gap-5 md:gap-0 flex flex-col md:flex-row '>
+                <div className='md:w-1/2  w-full py-10 md:py-0 bg-secondary flex flex-col justify-center gap-6  items-center'>
+                    <h3 className='text-[24px] font-Fjalla font-[400] text-white '>Family Packages</h3>
 <div className='flex justify-center items-center border-b-2 border-body pb-3 '>                    <span className='text-[30px] font-Fjalla font-[400] text-primary'>$299.90</span><span className='text-[16px] text-body'>/family</span></div>
                     <div className='flex flex-col justify-center items-start gap-4'>
                <span className='flex justify-start items-center gap-3 text-[16px] text-body'><MdDone className='text-primary text-[20px] font-bold'/><p>All Access To Waterpark</p></span>
@@ -33,7 +33,7 @@ Free Soft Drinks</p></span>
              </div>
              <button className='bg-primary text-white px-6 py-3 text-[16px] font-bold tracking-wide'>BOOK NOW</button>
                 </div>
-                <div className='w-1/2 bg-primary flex flex-col justify-center gap-6  my-auto py-10 items-center'>
+                <div className='md:w-1/2 w-full bg-primary flex flex-col justify-center gap-6  my-auto py-10 items-center'>
                 <h3 className='text-[24px] font-Fjalla font-[400] text-white'>Basic Packages</h3>
 <div className='flex justify-center items-center border-b-2 border-body pb-3'>                    <span className='text-[30px] font-Fjalla font-[400] text-secondary'>$59,90</span><span className='text-[16px] text-white'>/person</span></div>
                     <div className='flex flex-col justify-center items-start gap-4'>
@@ -50,9 +50,11 @@ Free Soft Drinks</p></span>
 
         </div>
         </div>
-    
+   
     </div>
   )
 }
 
 export default Ticket
+
+
